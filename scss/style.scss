@@ -1,6 +1,72 @@
 @import "nullstyle.scss"; //! Обнуляющий стиль!
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+$border1: 1px solid red;
+$border2: 1px solid blue;
+$border3: 1px solid green;
+$border4: 1px solid pink;
+
+$color1: #000000;
+$color2: #FFFFFF;
+$color3: #B6F214;
+
 body{
     font-family: 'Work Sans', sans-serif;
+    position: relative;
+    width: 1440px;
+    height: 4674px;
+    background-color: $color2;
+}
+
+.header {
+position: absolute;
+width: 1440px;
+height: 91px;
+left: 0px;
+top: 0px;
+background-color: $color1;
+
+        &__row {
+            display: flex;
+            justify-content: space-around;
+        }
+
+    .header-logo {
+        transform: translate(-100px, 10px);
+    }
+    .header-img {
+    }
+    .header-menu {
+    }
+    .header-column {
+        transform: translateY(30px);
+    }
+    .header-list {
+        display: inline;
+        color: $color2;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: uppercase;
+        padding: 10px;
+        margin-right: 20px;
+        border-radius: 8px;
+        
+        span{
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        :hover{
+            color: $color1;
+            background-color: $color3;
+            transition: 0.4s;
+        }
+
+        :active{
+            color: $color2;
+            transition: 0.2s;
+        }
+    }
 }

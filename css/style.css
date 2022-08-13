@@ -76,4 +76,65 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 body {
   font-family: 'Work Sans', sans-serif;
+  position: relative;
+  width: 1440px;
+  height: 4674px;
+  background-color: #FFFFFF;
+}
+
+.header {
+  position: absolute;
+  width: 1440px;
+  height: 91px;
+  left: 0px;
+  top: 0px;
+  background-color: #000000;
+}
+
+.header__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header .header-logo {
+  -webkit-transform: translate(-100px, 10px);
+          transform: translate(-100px, 10px);
+}
+
+.header .header-column {
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+}
+
+.header .header-list {
+  display: inline;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.header .header-list span {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.header .header-list :hover {
+  color: #000000;
+  background-color: #B6F214;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.header .header-list :active {
+  color: #FFFFFF;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
