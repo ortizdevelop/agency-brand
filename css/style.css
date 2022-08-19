@@ -149,7 +149,7 @@ body {
   background-image: url("/assets/content-head/BG.png");
 }
 
-.head-title {
+.content-head .head-title {
   font-size: 81px;
   font-weight: 500;
   line-height: 100px;
@@ -162,7 +162,7 @@ body {
   border-radius: nullpx;
 }
 
-.head-subtitle {
+.content-head .head-subtitle {
   padding-top: 26px;
   font-size: 30px;
   line-height: 40px;
@@ -171,36 +171,36 @@ body {
   width: 771px;
 }
 
-.head-button {
+.content-head .head-button {
   padding-top: 40px;
   padding-bottom: 89px;
 }
 
-.head-button :hover {
+.content-head .head-button :hover {
   background-color: #000000;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
-.head-button :hover span {
+.content-head .head-button :hover span {
   color: #FFFFFF;
   background: url("/assets/content-head/arrow-w.png") right no-repeat;
 }
 
-.head-button :active {
+.content-head .head-button :active {
   background-color: #B6F214;
   border: 3.5px solid #000000;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
-.head-button :active span {
+.content-head .head-button :active span {
   border: none;
   color: #000000;
   background: url("/assets/content-head/arrow.png") right no-repeat;
 }
 
-.head-button__link {
+.content-head .head-button__link {
   padding: 20px;
   padding-left: 40px;
   background-color: #FFFFFF;
@@ -208,7 +208,7 @@ body {
   border-radius: 4px;
 }
 
-.head-button__link span {
+.content-head .head-button__link span {
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -218,7 +218,7 @@ body {
   background: url("/assets/content-head/arrow.png") right no-repeat;
 }
 
-.head-bottom-title {
+.content-head .head-bottom-title {
   padding-top: 100px;
   padding-bottom: 42px;
   font-size: 20px;
@@ -231,7 +231,7 @@ body {
   height: 20px;
 }
 
-.head-bottom-subtitle {
+.content-head .head-bottom-subtitle {
   font-size: 46px;
   font-weight: 500;
   line-height: 60px;
@@ -244,24 +244,24 @@ body {
   color: #000;
 }
 
-.head-bottom-button {
+.content-head .head-bottom-button {
   -webkit-transform: translate(430px, 50px);
           transform: translate(430px, 50px);
 }
 
-.head-bottom-button :active {
+.content-head .head-bottom-button :active {
   background-color: #000000;
   border-radius: 4px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
-.head-bottom-button :active span {
+.content-head .head-bottom-button :active span {
   color: #FFFFFF;
   background: url("/assets/content-head/arrow-w.png") right no-repeat;
 }
 
-.head-bottom-button__link {
+.content-head .head-bottom-button__link {
   background-color: #B6F214;
   padding: 20px;
   padding-right: 40px;
@@ -269,7 +269,7 @@ body {
   border-radius: 4px;
 }
 
-.head-bottom-button__link span {
+.content-head .head-bottom-button__link span {
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -278,4 +278,17 @@ body {
   color: #000;
   padding-right: 27px;
   background: url("/assets/content-head/arrow.png") right no-repeat;
+}
+
+.content-main {
+  padding-top: 1950px;
+}
+
+.content-main .services__row {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.content-main .services__row span {
+  opacity: 80%;
 }
