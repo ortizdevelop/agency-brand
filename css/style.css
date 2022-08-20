@@ -402,6 +402,7 @@ body {
 
 .content-main .works .work-images-info {
   position: relative;
+  height: 80px;
 }
 
 .content-main .works .work-images-info p {
@@ -460,4 +461,91 @@ body {
 .content-main .works .work-images-info2 {
   -webkit-transform: translate(-260px, 435px);
           transform: translate(-260px, 435px);
+}
+
+.content-bottom .project__row {
+  height: 454px;
+  width: 1451px;
+  left: -7px;
+  top: 3374px;
+  border-radius: 0px;
+  background-image: url("/assets/content-bottom/bg.png");
+}
+
+.content-bottom .project .project-title {
+  padding-top: 100px;
+  padding-bottom: 22px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.content-bottom .project .project-subtitle {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: center;
+  color: #000;
+  padding-bottom: 38px;
+}
+
+.content-bottom .project .project-button {
+  padding-top: 28px;
+  width: 495px;
+  height: 66px;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 480px;
+}
+
+.content-bottom .project .project-button a {
+  padding: 25px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.content-bottom .project .project-button span {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000;
+  background: url("/assets/content-bottom/arrow.png") right no-repeat;
+  padding-right: 40px;
+  margin-right: 20px;
+  padding-left: 40px;
+}
+
+.content-bottom .brands {
+  padding-top: 75px;
+}
+
+.content-bottom .brands__row {
+  height: 201px;
+  width: 1414px;
+  left: 13px;
+  top: 3903px;
+  border-radius: 0px;
+}
+
+.content-bottom .brands .brands-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.content-bottom .brands .brands-list {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
 }
