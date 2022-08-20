@@ -525,3 +525,38 @@ background-color: $color1;
         }
     }
 }
+
+.footer {
+    margin-top: 90px;
+
+    &__row {
+        background-image: url('/assets/footer/bg.png');
+        position: absolute;
+        width: 1724px;
+        height: 692px;
+        color: $color2;
+    }
+
+    .footer-logo {
+        margin-top: 110px;
+        
+    }
+    .footer-social {
+        
+    }
+    .footer-columns {
+        
+    }
+    .footer-lists {
+        
+    }
+    .footer-subscribe {
+        
+    }
+    .footer-mail {
+        
+    }
+    .footer-copyright {
+        
+    }
+}

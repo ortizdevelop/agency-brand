@@ -549,3 +549,19 @@ body {
           justify-content: space-between;
   text-align: center;
 }
+
+.footer {
+  margin-top: 90px;
+}
+
+.footer__row {
+  background-image: url("/assets/footer/bg.png");
+  position: absolute;
+  width: 1724px;
+  height: 692px;
+  color: #FFFFFF;
+}
+
+.footer .footer-logo {
+  margin-top: 110px;
+}
