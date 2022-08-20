@@ -310,24 +310,85 @@ background-color: $color1;
             }
         }
     }
+
     .works {
+        padding-top: 41px;
 
         &__row {
+            display: flex;
         }
+
+    .work-titles{
+        padding-top: 130px;
+        transform: translateX(87px);
+    }
     
     .works-title {
+        padding-bottom: 44px;
+        font-size: 81px;
+        font-weight: 500;
+        line-height: 100px;
+        letter-spacing: -3px;
+        width: 400px;
+        color: #000;
     }
+
     .works-subtitle {
+        span{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: #000;
+            background: url("/assets/content-main/arrow.png") right no-repeat;
+            padding-right: 31px;
+        }
 
         &__link {
         }
+
     }
+
+    .work-images-info{
+        position: relative;
+
+        p{
+            font-size: 26px;
+            font-weight: 300;
+            line-height: 0px;
+            letter-spacing: -3px;
+            color: #fff;
+        }
+
+        span{
+            font-size: 16px;
+            font-weight: 350;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: #b6f214;
+            background: url('/assets/content-main/arrow-green.png') right no-repeat;
+            padding-right: 30px;
+        }
+    }
+
     .works-images {
+        position: relative;
+        display: flex;
+        flex-grow: 0;
+        padding-left: 155px;
+
+        img{
+            display: flex;
+            transform: translateX(20px);
+            z-index: 0;
+        }
 
         &__img1 {
         }
 
         &__title1 {
+            height: 26px;
+            width: 215px;           
         }
 
         &__link1 {
@@ -337,12 +398,16 @@ background-color: $color1;
         }
 
         &__title2 {
+            height: 26px;
+            width: 157px;
         }
 
         &__link2 {
+            
         }
 
         &__img3 {
+            
         }
 
         &__title3 {
@@ -351,7 +416,21 @@ background-color: $color1;
         &__link3 {
         }
     }
+
+    .work-images-info1{
+        transform: translate(-268px,430px);
+    }
+
+    .work-images-info2{
+        transform: translate(-260px,435px);
+    }
+
+    .work-images-info3{
+        
+    }
+
     .work-links {
+
     }
  } 
 }
