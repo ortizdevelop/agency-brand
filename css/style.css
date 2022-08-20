@@ -292,3 +292,74 @@ body {
 .content-main .services__row span {
   opacity: 80%;
 }
+
+.content-main .services .services-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 80px;
+  padding-bottom: 22px;
+}
+
+.content-main .services .services-subtitle {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 36px;
+}
+
+.content-main .services .lists {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-transform: translateX(185px);
+          transform: translateX(185px);
+}
+
+.content-main .services .list1 img {
+  margin-bottom: 50px;
+}
+
+.content-main .services .list1 p {
+  -webkit-transform: translate(60px, -100px);
+          transform: translate(60px, -100px);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 185%;
+  color: #fafafa;
+}
+
+.content-main .services .list1 span {
+  font-size: 18px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.content-main .services .list2 {
+  padding-bottom: 113px;
+  -webkit-transform: translate(900px, -549px);
+          transform: translate(900px, -549px);
+}
+
+.content-main .services .list2 img {
+  margin-bottom: 50px;
+}
+
+.content-main .services .list2 p {
+  -webkit-transform: translate(60px, -100px);
+          transform: translate(60px, -100px);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 185%;
+  color: #fafafa;
+}
+
+.content-main .services .list2 span {
+  font-size: 18px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.8);
+}

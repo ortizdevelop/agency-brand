@@ -228,28 +228,93 @@ background-color: $color1;
                 opacity: 80%;
             }
         }
-    }
-    .services-title {
-    }
-    .services-subtitle {
-    }
-    .services-columns {
-    }
-    .lists {
-    }
-    .list {
+    
+        .services-title {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.8);
+            padding-top: 80px;
+            padding-bottom: 22px;
+        }
+        .services-subtitle {
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 60px;
+            text-align: center;
+            color: #fff;
+            padding-bottom: 36px;
+        }
+        .services-columns {
+        }
+        .lists {
+            justify-content: space-around;
+            transform: translateX(185px);
+        }
+        .list1 {
 
-        &__img {
+            img{
+                margin-bottom: 50px;
+            }
+
+            p{
+                transform: translate(60px,-100px);
+                font-size: 26px;
+                font-weight: 500;
+                line-height: 185%;
+                color: #fafafa;
+            }
+
+            span{
+                font-size: 18px;
+                line-height: 18px;
+                color: rgba(255, 255, 255, 0.8);
+            }
+
+            &__img {
+            }
+
+            &__text {
+                
+            }
         }
 
-        &__text {
+        .list2 {
+            padding-bottom: 113px;
+            transform: translate(900px, -549px);
+            
+            img{
+                margin-bottom: 50px;
+            }
+
+            p{
+                transform: translate(60px,-100px);
+                font-size: 26px;
+                font-weight: 500;
+                line-height: 185%;
+                color: #fafafa;
+            }
+
+            span{
+                font-size: 18px;
+                line-height: 18px;
+                color: rgba(255, 255, 255, 0.8);
+            }
+
+            &__img {
+            }
+
+            &__text {
+            }
         }
     }
     .works {
 
         &__row {
         }
-    }
+    
     .works-title {
     }
     .works-subtitle {
@@ -288,4 +353,5 @@ background-color: $color1;
     }
     .work-links {
     }
+ } 
 }
