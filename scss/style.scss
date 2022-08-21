@@ -531,32 +531,143 @@ background-color: $color1;
 
     &__row {
         background-image: url('/assets/footer/bg.png');
+        display: flex;
         position: absolute;
-        width: 1724px;
-        height: 692px;
+        width: 1494px;
+        height: 492px;
         color: $color2;
     }
 
     .footer-logo {
         margin-top: 110px;
+        padding-left: 100px;
         
     }
     .footer-social {
-        
+        transform: translate(-105px,200px);
     }
-    .footer-columns {
-        
+    .footer-columns1 {
+        margin-top: 130px;
+        height: 100px;
     }
-    .footer-lists {
-        
+    .footer-lists1 {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 44px;
+        color: #fff;
     }
+
+    .footer-columns2{
+        margin-top: 130px;
+        margin-left: 132px;
+
+    }
+
+    .footer-list2{
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 44px;
+        color: #fff;
+    }
+    
     .footer-subscribe {
-        
+        height: 100px;
+        margin-top: 130px;
+        margin-left: 124px;
     }
-    .footer-mail {
-        
+
+    .footer-subscribe-title{
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 40px;
+        margin-bottom: 30px;
+        color: #fff;
     }
+
+    .footer-subscribe-mail {
+        width: 255px;
+        height: 66px;
+        background-color: #fff;
+        border-radius: 4px;
+        text-align: center;
+
+        p{
+            padding: 25.2px;
+            width: 160px;
+            background-color: #b6f214;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 16px;
+            text-transform: uppercase;
+            text-align: center;
+            color: #000;
+            transform: translate(190px,-35.5px);
+        }
+        
+        input{
+            padding-top: 20px;
+        }
+    }
+
     .footer-copyright {
+        margin-top: 130px;
+        transform: translate(-470px,300px);
+        height: 30px;
+        width: 400px;
+        text-align: center;
+        opacity: 80%;
+
+        span{
+            color: $color3;
+            opacity: 100%;
+        }
         
     }
+
+    .ortiz-develop-copyright {
+        transform: translate(-105px,125px);
+
+        p{
+            width: 230px;
+            font-size: 26px;
+            font-weight: 500;
+            line-height: 40px;
+            margin-bottom: 30px;
+            color: #fff;
+        }
+
+        a{
+            background-color: $color3;
+        }
+
+        
+		&__github {
+            padding: 9px;
+            border-radius: 4px;
+
+            span{
+                color: $color1;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 16px;
+                text-transform: uppercase;
+
+                :hover{
+                    background-clip: $color2;
+                    transition: 0.3s;
+                }
+        
+            }
+
+            
+		}
+
+        &__logo{
+            margin-top: 80px;
+            width: 100px;
+            height: 100px;
+        }
+    }
+
 }
